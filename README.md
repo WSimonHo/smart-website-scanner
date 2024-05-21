@@ -57,7 +57,7 @@ Install the Anaconda3
 - Python 3.7
 - Keras
 - Tensorflow
-- Jupyter
+- Jupyter Notebook
 
 
 ### Steps
@@ -97,6 +97,7 @@ Install the Anaconda3
 ### Load the Website Content by url
 1. Open the `smart-website-scanner/model/classify/load_url.py` in VSCode
 2. Changed the url csv file want to
+
 ![Screenshot 2024-05-21 at 9 05 15 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/c27a671d-2c6a-4e46-a42f-553d52295068)
 3. Update the URL CSV file path to the file you want to use.
 4. Run the script. It will load the url and save the website content that is existing.
@@ -109,7 +110,7 @@ To generate the dataset for phishing detection, you can follow the example scrip
 
 #### Genrate the Phishing Websites URL Features Dataset
 
-1. Open the `classify_website_final.py` in VSCode
+1. Open the `classify_website_generate_url_final.py` in VSCode
 2. Insert the csv file that for generate the Phishing Websites URL Features
 ![Screenshot 2024-05-21 at 9 55 06 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/482acfad-615f-456f-9dd7-dcfc922aba1e)
 3. Change the name of the data set that will be generated
@@ -119,17 +120,21 @@ To generate the dataset for phishing detection, you can follow the example scrip
 
 #### Genrate the Phishing Websites Content Features Dataset
 
-1. Open the `` in VSCode
-2. Insert the csv file that for generate the Phishing Websites URL Features
+1. Goto the Jupyter Notebook and Open `./model/classify_website_generate_content_final.ipynb`
+2. Insert the csv file that for generate the Phishing Websites Content Features
+![Screenshot 2024-05-21 at 11 26 48 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/baec79a0-6f13-4936-8a4a-8d2aae37e4df)
 3. Change the name of the data set that will be generated
+![Screenshot 2024-05-21 at 11 27 23 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/697f3361-a0d3-40d6-a537-4ba0b9cfd1aa)
 4. Run the script and will see the dataset generated
 
 
 #### Merge Legitimate dataset and Phishing dataset into one Dataset
 
-1. Open the `` in VSCode
+1. Open the `disorganized_data.py` in VSCode
 2. Change the datasets name
+![Screenshot 2024-05-21 at 11 28 57 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/34f61666-147b-43d9-a394-6cb6138f11de)
 3. Change the name of the data set that will be generated
+![Screenshot 2024-05-21 at 11 29 46 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/20e0e01e-ce10-41f4-b083-afb5f64fbd29)
 4. Run the script and will see the dataset generated
 
 

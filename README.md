@@ -112,7 +112,7 @@ To generate the dataset for phishing detection, you can follow the example scrip
 
 #### Genrate the Phishing Websites URL Features Dataset
 
-1. Open the `classify_website_generate_url_final.py` in VSCode
+1. Open the `classify_website_generate_url_final.py` in VSCode or Open the `classify_website_generate_url_final.ipynb` in Anaconda
 2. Insert the csv file that for generate the Phishing Websites URL Features
    
 ![Screenshot 2024-05-21 at 9 55 06 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/482acfad-615f-456f-9dd7-dcfc922aba1e)

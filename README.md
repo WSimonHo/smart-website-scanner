@@ -113,29 +113,29 @@ To generate the dataset for phishing detection, you can follow the example scrip
 #### Genrate the Phishing Websites URL Features Dataset
 
 1. Open the `classify_website_generate_url_final.py` in VSCode or Open the `classify_website_generate_url_final.ipynb` in Anaconda
-2. Insert the csv file that for generate the Phishing Websites URL Features
+2. Load the csv file that for generate the Phishing Websites URL Features
    
 ![Screenshot 2024-05-21 at 9 55 06 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/482acfad-615f-456f-9dd7-dcfc922aba1e)
 
-4. Change the name of the data set that will be generated
+3. Change the name of the data set that will be generated
    
 ![Screenshot 2024-05-21 at 9 55 33 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/1bf241da-ad3d-48c3-8fd2-91c08f35d629)
 
-6. Run the script and will see the dataset generated
+4. Run the script and will see the dataset generated
    
 
 #### Genrate the Phishing Websites Content Features Dataset
 
 1. Goto the Jupyter Notebook and Open `./model/classify_website_generate_content_final.ipynb`
-2. Insert the csv file that for generate the Phishing Websites Content Features
+2. Load the csv file that for generate the Phishing Websites Content Features
    
 ![Screenshot 2024-05-21 at 11 26 48 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/baec79a0-6f13-4936-8a4a-8d2aae37e4df)
 
-4. Change the name of the data set that will be generated
+3. Change the name of the data set that will be generated
    
 ![Screenshot 2024-05-21 at 11 27 23 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/697f3361-a0d3-40d6-a537-4ba0b9cfd1aa)
 
-6. Run the script and will see the dataset generated
+4. Run the script and will see the dataset generated
 
 
 #### Merge Legitimate dataset and Phishing dataset into one Dataset
@@ -145,22 +145,36 @@ To generate the dataset for phishing detection, you can follow the example scrip
    
 ![Screenshot 2024-05-21 at 11 28 57 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/34f61666-147b-43d9-a394-6cb6138f11de)
 
-4. Change the name of the data set that will be generated
+3. Change the name of the data set that will be generated
    
 ![Screenshot 2024-05-21 at 11 29 46 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/20e0e01e-ce10-41f4-b083-afb5f64fbd29)
 
-6. Run the script and will see the dataset generated
+4. Run the script and will see the dataset generated
 
 
 ### AI Model
 
 To use the AI model for phishing detection, you can follow the example script provided in the `model` directory. Below is a basic usage example:
 
-1. Run the Anaconda
-2. Change the virtual environment to ai_model
-1. Start the Jupyter Notebook
-2. Update the dataset that for generate the Phishing Websites URL Features
-3. Run the script
+1. Run the Anaconda and Start the Jupyter Notebook
+2. Choose one of the Model  want to train and test
+
+![Screenshot 2024-05-22 at 12 05 31 AM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/001a78b5-4d08-4c6f-8afa-62a0f4a92563)
+
+2. Load the csv file that for model
+2.1. Run the Classify the dataset (optional)
+3. Run the other script (if the dataset is already classified)
+   
+![Screenshot 2024-05-22 at 12 09 49 AM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/a5c2e3b7-b368-41d0-b803-fbfde0edd920)
+
+4. Will Output the result
+
+![Screenshot 2024-05-22 at 12 11 12 AM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/12b82a24-7bb7-43c7-8ddc-56c83d06ca2b)
+
+5. Final will save the ai model to JSON format
+   
+![Screenshot 2024-05-22 at 12 11 44 AM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/1f251c23-4b1b-4ac0-8a42-3477d1e530b0)
+
 
 
 ## Testing

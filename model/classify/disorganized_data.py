@@ -2,8 +2,7 @@ import csv
 import random
 
 # Read the contents of the first CSV file
-# file1 = './csv/train/normal_content_without_url_3.csv'
-file1 = '/Users/simhoz/Desktop/ai-modal/rnn/website_url_5_b.csv'
+file1 = './dataset/website_url_5_b.csv'
 data1 = []
 with open(file1, 'r') as csv_file1:
     reader1 = csv.reader(csv_file1)
@@ -11,8 +10,7 @@ with open(file1, 'r') as csv_file1:
     data1 = list(reader1)
 
 # Read the contents of the second CSV file
-# file2 = './csv/train/website_content_without_url_3.csv'
-file2 = '/Users/simhoz/Desktop/ai-modal/rnn/website_url_5_p.csv'
+file2 = './dataset/website_url_5_p.csv'
 data2 = []
 with open(file2, 'r') as csv_file2:
     reader2 = csv.reader(csv_file2)
@@ -26,7 +24,7 @@ merged_data = data1 + data2
 random.shuffle(merged_data)
 
 # Write the merged and disorganized data to a new CSV file
-output_file = './csv/train/train_dataset_6.csv'
+output_file = './dataset/merged_dataset.csv'
 with open(output_file, 'w', newline='') as csv_output:
     writer = csv.writer(csv_output)
     writer.writerow(['url','result'])  # Adjust the column headers as needed

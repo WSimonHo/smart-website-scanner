@@ -98,8 +98,8 @@ Install the Anaconda3
 1. Open the `smart-website-scanner/model/classify/load_url.py` in VSCode
 2. Changed the url csv file want to
 ![Screenshot 2024-05-21 at 9 05 15 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/c27a671d-2c6a-4e46-a42f-553d52295068)
-4. Update the URL CSV file path to the file you want to use.
-5. Run the script. It will load the url and save the website content that is existing.
+3. Update the URL CSV file path to the file you want to use.
+4. Run the script. It will load the url and save the website content that is existing.
 ![Screenshot 2024-05-21 at 9 38 46 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/65d3a6af-e370-435b-9c44-5231e33990b1)
 
 

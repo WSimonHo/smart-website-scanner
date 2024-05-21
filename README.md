@@ -96,10 +96,10 @@ Install the Anaconda3
 
 ### Load the Website Content by url
 1. Open the `smart-website-scanner/model/classify/load_url.py` in VSCode
-2. Changed the url csv file want to 
+2. Changed the url csv file want to
 ![Screenshot 2024-05-21 at 9 05 15 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/c27a671d-2c6a-4e46-a42f-553d52295068)
-3. Update the URL CSV file path to the file you want to use.
-4. Run the script. It will load the url and save the website content that is existing.
+4. Update the URL CSV file path to the file you want to use.
+5. Run the script. It will load the url and save the website content that is existing.
 ![Screenshot 2024-05-21 at 9 38 46 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/65d3a6af-e370-435b-9c44-5231e33990b1)
 
 
@@ -109,11 +109,13 @@ To generate the dataset for phishing detection, you can follow the example scrip
 
 #### Genrate the Phishing Websites URL Features Dataset
 
-1. Open the `` in VSCode
+1. Open the `classify_website_final.py` in VSCode
 2. Insert the csv file that for generate the Phishing Websites URL Features
+![Screenshot 2024-05-21 at 9 55 06 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/482acfad-615f-456f-9dd7-dcfc922aba1e)
 3. Change the name of the data set that will be generated
+![Screenshot 2024-05-21 at 9 55 33 PM](https://github.com/WSimonHo/smart-website-scanner/assets/10824488/1bf241da-ad3d-48c3-8fd2-91c08f35d629)
 4. Run the script and will see the dataset generated
-
+   
 
 #### Genrate the Phishing Websites Content Features Dataset
 
